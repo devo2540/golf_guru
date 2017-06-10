@@ -1,72 +1,24 @@
 {
-    "Course": {
-        "Name": "Oak Hollow",
-        "Par": 70,
-        "Distance": {
-            "Blue": "6,478 yards",
-            "White": "5,900 yards",
-            "Yellow": "5,235 yards",
-            "Gold": "5,018 yards"
-        },
+    "course": {
+        "name": "Oak Hollow",
+        "par": 70,
+        "distances": { "blue": 6478, "white": 5900, "yellow": 5235, "gold": 5018 },
 
-        "Front Nine": {
-            "Par": 35,
-            "Total Distance": {
-                "Blue": "6,478 yards",
-                "White": "5,900 yards",
-                "Yellow": "5,235 yards",
-                "Gold": "5,018 yards"
-            },
-            "Hole": {
-                "1": {
-                    "Par": 4,
-                    "Tee": {
-                        "Blue": "6,478 yards",
-                        "White": "5,900 yards",
-                        "Yellow": "5,235 yards",
-                        "Gold": "5,018 yards"
-                    }
-                },
-                "2": {
-                    "Par": 4,
-                    "Tee": {
-                        "Blue": "6,478 yards",
-                        "White": "5,900 yards",
-                        "Yellow": "5,235 yards",
-                        "Gold": "5,018 yards"
-                    }
-                }
+        "front nine": {
+            "par": 35,
+            "distances": { "blue": 6478, "white": 5900, "yellow": 5235, "gold": 5018 },
+            "holes": {
+                "1": { "par": 4, "distances": { "blue": 6478, "white": 5900, "yellow": 5235, "gold": 5018 } },
+                "2": { "par": 4, "distances": { "blue": 6478, "white": 5900, "yellow": 5235, "gold": 5018 } }
             },
 
-            "Back Nine": {
-                "Par": 35,
-                "Total Distance": {
-                    "Blue": "6,478 yards",
-                    "White": "5,900 yards",
-                    "Yellow": "5,235 yards",
-                    "Gold": "5,018 yards"
-                },
-                "Hole": {
-                    "1": {
-                        "Par": 4,
-                        "Tee": {
-                            "Blue": "6,478 yards",
-                            "White": "5,900 yards",
-                            "Yellow": "5,235 yards",
-                            "Gold": "5,018 yards"
-                        }
-                    },
-                    "2": {
-                        "Par": 4,
-                        "Tee": {
-                            "Blue": "6,478 yards",
-                            "White": "5,900 yards",
-                            "Yellow": "5,235 yards",
-                            "Gold": "5,018 yards"
-                        }
-                    }
+            "back nine": {
+                "par": 35,
+                "distances": { "blue": 6478, "white": 5900, "yellow": 5235, "gold": 5018 },
+                "holes": {
+                    "1": { "par": 4, "distances": { "blue": 6478, "white": 5900, "yellow": 5235, "gold": 5018 } },
+                    "2": { "par": 4, "distances": { "blue": 6478, "white": 5900, "yellow": 5235, "gold": 5018 } }
                 }
             }
         }
     }
-}
