@@ -21,3 +21,12 @@ Which will return a list of apps presently supported on this server, in the form
 }
 ```
 
+## Hitting the Golf Guru app itself
+```javascript
+http://127.0.0.1:3000/golf_guru
+```
+Will return a list of courses presently supported in the app, in the form of:
+```javascript
+{
+    "Pebble Beach" : "http://127.0.0.1:3000/golf_guru/courses/pebble-beach"
+}
