@@ -6,6 +6,10 @@ app.get('/', function(req, res) {
 });
 
 app.get('/golf_guru', function(req, res) {
+    res.send({ 'courses': 'http://127.0.0.1:3000/golf_guru/courses' });
+});
+
+app.get('/golf_guru/courses', function(req, res) {
     res.send({ 'Oak Hollow': 'http://127.0.0.1:3000/golf_guru/courses/oak-hollow' });
 });
 
