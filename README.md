@@ -41,39 +41,24 @@ Will return the information suitable for a blank score card for the course, in t
     name : "Oak Hollow",
     
     par  : 70,
-    distances : { 
-        gold : 6659,
-        blue : 6177,
-        white : 5807,
-        red : 5200
-    },
+    distances : { gold : 6659, blue : 6177, white : 5807, red : 5200 },
 
     front : {
         par : 35,
-        distances : {
-            gold : 3400,
-            blue : 3159,
-            white : 2937,
-            red : 2605
-        },
+        distances : { gold : 3400, blue : 3159, white : 2937, red : 2605 },
         holes : {
             "1" : { par:4, distances:{ gold:405, blue:376, white:358, red:315 } },
             "2" : ...
         }
     },
 
-    back9 : {
+    back : {
         par : 35,
-        distances : {
-            gold : 3259,
-            blue : 3018,
-            white : 2870,
-            red : 2595
-        },
+        distances : { gold : 3259, blue : 3018, white : 2870, red : 2595 },
         holes : {
             "10" : { par:4, distances:{ gold:405, blue:376, white:358, red:315 } },
             "11" : ...
         }
-    },
+    }
 }
 ```
