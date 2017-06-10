@@ -70,6 +70,10 @@ http://127.0.0.1:3000/golf_guru/games/1
 Will return information about the game, in the form of:
 ```javascript
 {
+    course: {
+        name:"Oak Hollow",
+        url:"http://127.0.0.1:3000/golf_guru/courses/oak-hollow" 
+    },
     players: [
         { name:"Devin", strokes: { "1" : 4, "2" : 3 }, front:7, back:0, total:7 },
         { name:"Jack" , strokes: { "1" : 5, "2" : 2 }, front:7, back:0, total:7 }
