@@ -30,7 +30,7 @@ Will return a list of courses presently supported in the app, in the form of:
 {
     "Pebble Beach" : "http://127.0.0.1:3000/golf_guru/courses/pebble-beach"
 }
-
+```
 ## Retrieving information on a course
 ```javascript
 http://127.0.0.1:3000/golf_guru/courses/pebble-beach
