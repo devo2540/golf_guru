@@ -80,3 +80,15 @@ Will return information about the game, in the form of:
     ]
 }
 ```
+
+## Saving the number of strokes for a player on a given hole
+```javascript
+POST http://127.0.0.1:3000/golf_guru/games/1/players/Devin/holes/1
+PUT http://127.0.0.1:3000/golf_guru/games/1/players/Devin/holes/1
+```
+Along with the following JSON body
+```
+{
+    strokes:5
+}
+```
