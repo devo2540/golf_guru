@@ -59,6 +59,6 @@ Will return the information suitable for a blank score card for the course, in t
             "10" : { par:4, distances:{ gold:405, blue:376, white:358, red:315 } },
             "11" : ...
         }
-    },
+    }
 }
 ```
