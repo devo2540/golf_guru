@@ -15,6 +15,10 @@ app.get('/golf_guru/courses/oak-hollow', function(req, res) {
     res.sendFile('oak-hollow.json', options);
 });
 
+app.get('/golf_guru/courses/oak-hollow/games', function(req, res) {
+
+});
+
 app.listen(3000, function() {
     console.log('Example app listening on port 3000!')
 });
