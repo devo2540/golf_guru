@@ -63,7 +63,7 @@ Will return the information suitable for a blank score card for the course, in t
     },
 
     back9 : {
-        par : 70,
+        par : 35,
         distances : {
             gold : 3259,
             blue : 3018,
