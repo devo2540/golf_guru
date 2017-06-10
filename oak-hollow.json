@@ -1,0 +1,72 @@
+{
+    "Course": {
+        "Name": "Oak Hollow",
+        "Par": 70,
+        "Distance": {
+            "Blue": "6,478 yards",
+            "White": "5,900 yards",
+            "Yellow": "5,235 yards",
+            "Gold": "5,018 yards"
+        },
+
+        "Front Nine": {
+            "Par": 35,
+            "Total Distance": {
+                "Blue": "6,478 yards",
+                "White": "5,900 yards",
+                "Yellow": "5,235 yards",
+                "Gold": "5,018 yards"
+            },
+            "Hole": {
+                "1": {
+                    "Par": 4,
+                    "Tee": {
+                        "Blue": "6,478 yards",
+                        "White": "5,900 yards",
+                        "Yellow": "5,235 yards",
+                        "Gold": "5,018 yards"
+                    }
+                },
+                "2": {
+                    "Par": 4,
+                    "Tee": {
+                        "Blue": "6,478 yards",
+                        "White": "5,900 yards",
+                        "Yellow": "5,235 yards",
+                        "Gold": "5,018 yards"
+                    }
+                }
+            },
+
+            "Back Nine": {
+                "Par": 35,
+                "Total Distance": {
+                    "Blue": "6,478 yards",
+                    "White": "5,900 yards",
+                    "Yellow": "5,235 yards",
+                    "Gold": "5,018 yards"
+                },
+                "Hole": {
+                    "1": {
+                        "Par": 4,
+                        "Tee": {
+                            "Blue": "6,478 yards",
+                            "White": "5,900 yards",
+                            "Yellow": "5,235 yards",
+                            "Gold": "5,018 yards"
+                        }
+                    },
+                    "2": {
+                        "Par": 4,
+                        "Tee": {
+                            "Blue": "6,478 yards",
+                            "White": "5,900 yards",
+                            "Yellow": "5,235 yards",
+                            "Gold": "5,018 yards"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
