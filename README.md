@@ -9,8 +9,15 @@ Install express: npm install express
 node app
 ```
 
-## Hittig it from a browser
+## Hitting it from a browser
 ```javascript
 http://127.0.0.1:3000/
+```
+Which will return a list of apps presently supported on this server, in the form of:
+
+```javascript
+{
+    "golf_guru" : "http://127.0.0.1:3000/golf_guru"
+}
 ```
 
