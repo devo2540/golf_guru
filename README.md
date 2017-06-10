@@ -9,3 +9,8 @@ Install express: npm install express
 node app
 ```
 
+## Hittig it from a browser
+```javascript
+http://127.0.0.1:3000/
+```
+
