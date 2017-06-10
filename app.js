@@ -10,12 +10,15 @@ app.get('/golf_guru', function(req, res) {
 });
 
 app.get('/golf_guru/courses/oak-hollow', function(req, res) {
-    var options = { root: __dirname }
+    var options = { root: __dirname };
 
     res.sendFile('oak-hollow.json', options);
 });
 
-app.get('/golf_guru/courses/oak-hollow/games', function(req, res) {
+app.get('/golf_guru/games/1', function(req, res) {
+    var options = { root: __dirname };
+
+    res.sendFile('game.json', options);
 
 });
 
