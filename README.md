@@ -52,7 +52,7 @@ Will return the information suitable for a blank score card for the course, in t
         }
     },
 
-    back9 : {
+    back : {
         par : 35,
         distances : { gold : 3259, blue : 3018, white : 2870, red : 2595 },
         holes : {
