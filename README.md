@@ -28,12 +28,12 @@ http://127.0.0.1:3000/golf_guru
 Will return a list of courses presently supported in the app, in the form of:
 ```javascript
 {
-    "Pebble Beach" : "http://127.0.0.1:3000/golf_guru/courses/pebble-beach"
+    "Oak Hollow" : "http://127.0.0.1:3000/golf_guru/courses/oak-hollow"
 }
 ```
 ## Retrieving information on a course
 ```javascript
-http://127.0.0.1:3000/golf_guru/courses/pebble-beach
+http://127.0.0.1:3000/golf_guru/courses/oak-hollow
 ```
 Will return the information suitable for a blank score card for the course, in the form of:
 ```javascript
